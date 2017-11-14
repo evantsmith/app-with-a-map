@@ -1,0 +1,19 @@
+{
+  "name": "app-with-a-map",
+  "version": "1.0.0",
+  "description": "Mark and removes x's from a map",
+  "main": "app-with-a-map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evantsmith/app-with-a-map.git"
+  },
+  "author": "Evan Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evantsmith/app-with-a-map/issues"
+  },
+  "homepage": "https://github.com/evantsmith/app-with-a-map#readme"
+}
