@@ -2,7 +2,7 @@ var mainVm = new Vue({
 
     el: '#app',
     data: {
-        // This array will hold the 'marks' so we can use v-for in the html doc
+        // This array will hold the 'markers' so we can use v-for in the html doc
         markersArr: []
 
     },
@@ -17,15 +17,15 @@ var mainVm = new Vue({
             marker1.y = event.offsetY;
             // This property is used to toggle the display
             marker1.isShown = true;
-            // id "addedMark" is where the image and styling come from
+            // id "addedMarker" is where the image and styling come from
             // using v-html in the html doc, add a div element including setting the position properties to the coordinates
-            marker1.htmlAdded = `<div id="addedMark" style="left: ${marker1.x}px;top:${marker1.y}px"></div>`;
+            marker1.htmlAdded = `<div id="addedMarker" style="left: ${marker1.x}px;top:${marker1.y}px"></div>`;
             // Adding the 'marker' into the array using v-for in html doc
             this.markersArr.push(marker1);
 
         },
 
-        // This method will toggle 'isShown' property on 'mark' objects
+        // This method will toggle 'isShown' property on 'marker' objects
         hideMarker: function(marker1, event){
             marker1.isShown = !(marker1.isShown);
 

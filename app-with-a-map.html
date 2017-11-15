@@ -10,7 +10,7 @@
             <img v-on:click="mark" src="topo-co.jpg" id="mapImage">
 
             <!-- for 'marker' objects in markers array, print the 'htmlAdded' property for each marker, also run hideMarker method when each marker is clicked, also only show marker if isShown is true -->
-            <div v-for="marker in markersArr" v-html="marker.htmlAdded" v-on:click="hideMarker(marker,$event)" v-show="marker.isShown"></div>
+            <div v-for="marker in markersArr" v-html="marker.htmlAdded" v-on:click="hideMarker(marker,$event)" v-if="marker.isShown"></div>
         </div>
 
         <script src="/app-with-a-map.js"></script>

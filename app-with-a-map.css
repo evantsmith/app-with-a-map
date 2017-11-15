@@ -9,7 +9,7 @@
     height: 100%;
     width: 100%;
 }
-#addedMark {
+#addedMarker {
     position: absolute;
     background-image: url("http://cdn.mysitemyway.com/icons-watermarks/simple-black/classica/classica_letter-x/classica_letter-x_simple-black_128x128.png");
     background-size: 100% 100%;
